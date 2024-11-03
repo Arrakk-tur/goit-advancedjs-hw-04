@@ -9,6 +9,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin: 0 auto;
   padding: 0;
   gap: 8px;
   position: relative;
@@ -36,12 +37,13 @@
   color: #808080;
 }
 
-.search-form button {
+button {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 91px;
-  height: 40px;
+  margin: 0 auto;
+  max-width: 125px;
+  padding: 8px 16px;
   background: #4e75ff;
   border: none;
   border-radius: 8px;
@@ -52,4 +54,8 @@
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+}
+
+.load-more {
+  margin-top: 20px;
 }
